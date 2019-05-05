@@ -1,3 +1,7 @@
+var app = React.createElement(App);
+ReactDOM.render(app, document.getElementById('app'));
+
+/*
 //dane filmow
 var movies = [
   {
@@ -95,3 +99,4 @@ var element = React.createElement(
 );
 
 ReactDOM.render(element, document.getElementById('app'));
+*/
