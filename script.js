@@ -52,6 +52,19 @@ var MovieDescription = React.createClass({
 	},
 });
 
+//klasa MovieImage
+var MovieImage = React.createClass({
+	propTypes: {
+		src: React.PropTypes.string.isRequired,
+	},
+
+	render: function() {
+		return (
+			React.createElement('img', {src: this.props.src})
+		);
+	},
+});
+
 //klasa Movie
 var Movie = React.createClass({
 	propTypes: {
@@ -63,7 +76,7 @@ var Movie = React.createClass({
 			React.createElement('li', {},
 				React.createElement(MovieTitle, {title: this.props.movieData.title}),
 				React.createElement(MovieDescription, {desc: this.props.movieData.desc}),
-				React.createElement('img', {src: this.props.movieData.img})
+				React.createElement(MovieImage, {src: this.props.movieData.img})
 			)
 		)
 	},
