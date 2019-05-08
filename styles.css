@@ -9,26 +9,3 @@ input {
 	margin-right: 1em;
 	font-size: 16px;
 }
-
-button {
-	background-color: #2b656d;
-	color: white;
-	border-radius: 3px;
-	border: 0;
-	padding: 5px 10px;
-}
-
-.contact-list {
-	padding: 0;
-}
-
-.contact-item {
-	margin-bottom: 2em;
-	padding: .5em;
-	background-color: #c9edf2;
-	border: 1px solid #89b4ba;
-	border-radius: 3px;
-}
-.contact-label {
-	margin: .5em 0;
-}
