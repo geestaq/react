@@ -11,16 +11,16 @@ var Counter = React.createClass({
 	},
 
 	increment: function() {
-        this.setState({
-            counter: this.state.counter + 1
-        });
-    },
+		this.setState({
+			counter: this.state.counter + 1
+		});
+	},
 
 	decrement: function() {
-        this.setState({
-            counter: this.state.counter - 1
-        });
-    },
+		this.setState({
+			counter: this.state.counter - 1
+		});
+	},
 
 	render: function() {
 		console.log('render');
